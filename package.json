@@ -1,7 +1,7 @@
 {
-  "name": "jest-transform-stub",
-  "version": "2.0.0",
-  "description": "Jest transform stub",
+  "name": "jest-transform-stub-named",
+  "version": "1.0.0",
+  "description": "Jest transform stub. Named.",
   "main": "index.js",
   "files": [
     "index.js"
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddyerburgh/jest-transform-stub.git"
+    "url": "git+https://github.com/isair/jest-transform-stub-named.git"
   },
   "keywords": [
     "jest"
   ],
-  "author": "Edd Yerburgh",
+  "author": "Baris Sencan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eddyerburgh/jest-transform-stub/issues"
+    "url": "https://github.com/isair/jest-transform-stub/issues"
   },
-  "homepage": "https://github.com/eddyerburgh/jest-transform-stub#readme",
+  "homepage": "https://github.com/isair/jest-transform-stub#readme",
   "devDependencies": {
     "jest": "^22.4.2"
   },
