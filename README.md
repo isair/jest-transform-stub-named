@@ -25,20 +25,3 @@ In your Jest config, add jest-transform-stub-named to transform non JavaScript a
   }
 }
 ```
-
-## FAQ
-
-**My module isn't being transformed**
-
-Jest doesn't apply transforms to node_modules by default. You can solve this by using `moduleNameMapper`:
-
-```js
-{
-  "jest": {
-    // ..
-    "moduleNameMapper": {
-      "^.+.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub-named"
-    }
-  }
-}
-```
