@@ -16,7 +16,10 @@
   "keywords": [
     "jest"
   ],
-  "author": "Baris Sencan",
+  "contributors": [
+    "Alican Cubukcuoglu <alicancubukcuoglu@gmail.com>",
+    "Baris Sencan <baris.sncn@gmail.com>"
+  ]
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/isair/jest-transform-stub/issues"
